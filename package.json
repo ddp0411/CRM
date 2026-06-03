@@ -1,0 +1,28 @@
+{
+  "name": "indusflow-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "IndusFlow AI monorepo for the industrial CRM, ERP, HRMS, and AI SaaS platform.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @indusflow/web",
+    "dev:web": "npm run dev -w @indusflow/web",
+    "build": "npm run build -w @indusflow/web",
+    "build:web": "npm run build -w @indusflow/web",
+    "lint": "npm run lint -w @indusflow/web",
+    "typecheck": "npm run typecheck -w @indusflow/web"
+  },
+  "overrides": {
+    "postcss": "^8.5.15",
+    "next": {
+      "postcss": "^8.5.15"
+    }
+  },
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": ">=10.0.0"
+  }
+}

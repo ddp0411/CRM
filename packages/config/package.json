@@ -1,0 +1,6 @@
+{
+  "name": "@indusflow/config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Future shared TypeScript, lint, and build configuration package."
+}
