@@ -1,6 +1,6 @@
-# IndusFlow AI
+# Industrial AI
 
-IndusFlow AI is an AI-native industrial SaaS platform for CRM, project execution, production operations, warehouse, HRMS, finance, reporting, and AI-assisted workflows.
+Industrial AI is an AI-native industrial SaaS platform for CRM, project execution, production operations, warehouse, HRMS, finance, reporting, and AI-assisted workflows.
 
 ## Current Milestone
 
